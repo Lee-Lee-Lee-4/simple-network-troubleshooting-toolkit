@@ -15,7 +15,7 @@ ping                    Tests network connectivity
 tracert                 Traces the route to a destination
 nslookup                Checks DNS resolution
 ipconfig /flushdns      Clear local DNS cache
------------------------------------------------------------------------------------
+
 
 # LEARNING OBJECTIVES
 - Understand basic IP addressing and network configuration
