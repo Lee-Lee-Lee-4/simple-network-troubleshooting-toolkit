@@ -1,0 +1,111 @@
+# Basic Network Troubleshooting Scenarios
+
+## Scenario 1: Computer Cannot Connect to the Internet
+
+**Problem:**
+
+A user says their computer cannot connect to the internet.
+
+**Commands to use:**
+
+```cmd
+
+ipconfig
+
+ping 8.8.8.8
+
+```
+
+**Troubleshooting approach:**
+
+1. Check if the computer has an IPv4 address.
+
+2. Verify that a default gateway is set.
+
+3. Use ping to test connectivity to an IP address like 8.8.8.8.
+
+4. Look into possible problems if the ping fails.
+
+**Possible cause:**
+
+- The IP configuration is wrong.
+
+- The computer failed to get an IP address from DHCP.
+
+- There is an issue with the router or the network connection.
+
+## Scenario 2: Website Cannot Be Accessed Using Its Domain Name
+
+**Problem:**
+
+A user can connect to network resources using an IP address. Cannot reach a website using its domain name.
+
+**Commands to use:**
+
+```cmd
+
+nslookup example.com
+
+ipconfig /flushdns
+
+```
+
+**Troubleshooting approach:**
+
+1. See if the domain name resolves to an IP address.
+
+2. Confirm which DNS server is being used.
+
+3. Clear the DNS cache if outdated or incorrect data might be stored.
+
+4. Try accessing the website again.
+
+**Possible cause:**
+
+- The domain name is not resolving correctly.
+
+- The DNS server settings are incorrect.
+
+- The local DNS cache has wrong information.
+
+## Scenario 3: Investigating Network Delays
+
+**Problem:**
+
+A user says the internet connection is very slow when visiting a website.
+
+**Commands to use:**
+
+```cmd
+
+ping example.com
+
+tracert example.com
+
+```
+
+**Troubleshooting approach:**
+
+1. Check the ping response time. See if any packets are lost.
+
+2. Use tracert to view the path the data takes to reach the destination.
+
+3. Look for hops or timeouts in the route.
+
+4. Dig deeper to find the root of the delay.
+
+**Possible cause:**
+
+- The network is too busy.
+
+- There are issues with routing.
+
+- The connection is unstable.
+
+##
+
+These scenarios show how basic Windows network commands help solve network problems, in IT support.
+
+## Conclusion
+
+These scenarios demonstrate the application of basic Windows networking commands in common IT support situations.
