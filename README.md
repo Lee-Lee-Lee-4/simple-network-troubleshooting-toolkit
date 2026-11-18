@@ -8,7 +8,7 @@ The objective of these commands is to know how they work, interpret their output
 - Windows 11
 
 # COMMANDS USED
------------------------------------------------------------------------------------
+
 ipconfig                Display IPs
 ipconfig /all           Display all detailed IPs, network configuration
 ping                    Tests network connectivity
