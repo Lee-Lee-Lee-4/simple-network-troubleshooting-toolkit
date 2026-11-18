@@ -8,14 +8,12 @@ The objective of these commands is to know how they work, interpret their output
 - Windows 11
 
 # COMMANDS USED
-
-**ipconfig**                Display IPs
-**ipconfig /all**           Display all detailed IPs, network configuration
-**ping**                    Tests network connectivity
-**tracert**                 Traces the route to a destination
-**nslookup**                Checks DNS resolution
-**ipconfig /flushdns**      Clear local DNS cache
-
+- **ipconfig** – Displays basic IP configuration.
+- **ipconfig /all** – Displays detailed network configuration.
+- **ping** – Tests network connectivity.
+- **tracert** – Traces the network route to a destination.
+- **nslookup** – Checks DNS resolution.
+- **ipconfig /flushdns** – Clears the local DNS cache.
 
 # LEARNING OBJECTIVES
 - Understand basic IP addressing and network configuration
