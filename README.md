@@ -9,12 +9,12 @@ The objective of these commands is to know how they work, interpret their output
 
 # COMMANDS USED
 
-ipconfig                Display IPs
-ipconfig /all           Display all detailed IPs, network configuration
-ping                    Tests network connectivity
-tracert                 Traces the route to a destination
-nslookup                Checks DNS resolution
-ipconfig /flushdns      Clear local DNS cache
+**ipconfig**                Display IPs
+**ipconfig /all**           Display all detailed IPs, network configuration
+**ping**                    Tests network connectivity
+**tracert**                 Traces the route to a destination
+**nslookup**                Checks DNS resolution
+**ipconfig /flushdns**      Clear local DNS cache
 
 
 # LEARNING OBJECTIVES
